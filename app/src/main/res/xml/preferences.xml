@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:id="@+id/condonation_level"
+        android:title="Condonation Limit"
+        android:inputType="number"
+        android:ems="10"
+        android:summary="least percentage to be out of condonation"
+        android:key="c_lvl"
+        android:maxLength="3"
+        android:defaultValue="75"/>
+    <EditTextPreference
+        android:id="@+id/detention_level"
+        android:title="Detention Limit"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="3"
+        android:summary="least percentage to be out of detention"
+        android:key="d_lvl"
+        android:defaultValue="65"/>
+</PreferenceScreen>

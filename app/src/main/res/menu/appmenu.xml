@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/my_settings"
+        android:icon="@drawable/ic_action_name"
+        android:title="Settings"/>
+
+    <item android:id="@+id/bar_chart"
+        android:icon="@drawable/ic_bar_chart"
+        android:title="Overall Stats"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="About"/>
+</menu>
