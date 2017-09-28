@@ -20,8 +20,8 @@ public class DisplayActivity extends AppCompatActivity{
         getSupportActionBar().setTitle("Detailed Stats");
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        double c_val = Double.parseDouble(sharedPreferences.getString("c_lvl",""));
-        double d_val = Double.parseDouble(sharedPreferences.getString("d_lvl",""));
+        double c_val = Double.parseDouble(sharedPreferences.getString("c_lvl","75"));
+        double d_val = Double.parseDouble(sharedPreferences.getString("d_lvl","65"));
 
         Intent intent = getIntent();
         double percent = intent.getExtras().getDouble("percent");

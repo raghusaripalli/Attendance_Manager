@@ -7,14 +7,14 @@
         android:ems="10"
         android:summary="least percentage to be out of condonation"
         android:key="c_lvl"
-        android:maxLength="3"
+        android:maxLength="2"
         android:defaultValue="75"/>
     <EditTextPreference
         android:id="@+id/detention_level"
         android:title="Detention Limit"
         android:inputType="number"
         android:ems="10"
-        android:maxLength="3"
+        android:maxLength="2"
         android:summary="least percentage to be out of detention"
         android:key="d_lvl"
         android:defaultValue="65"/>
